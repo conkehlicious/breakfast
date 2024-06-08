@@ -104,3 +104,15 @@ button {
   margin-left: 303px;
   margin-top: 20px;
 }
+/* container contact end */
+
+/* media responsive */
+@media (max-width: 430px) {
+  * {
+    max-width: 400px;
+  }
+
+  .container-hero {
+    max-width: 400px;
+  }
+}
