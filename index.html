@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link roboto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>BREAKFAST ALL DAY</title>
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav>
+      <section class="navbar">
+        <div class="logo">
+          <img src="img/logo.png" />
+        </div>
+        <a class="navbar-item" href="#">HOME</a>
+        <a class="navbar-item" href="">ABOUT US</a>
+        <a class="navbar-item" href="">MENU</a>
+        <a class="navbar-item" href="">CONTACT US</a>
+      </section>
+    </nav>
+
+    <!--  container hero start -->
+    <div class="container-hero">
+      <div class="images-hero">
+        <img src="img/icecoffee01 (1).jpg" />
+        <img src="img/bread (1).jpg" id="bread" />
+      </div>
+      <div class="images-hero2">
+        <img src="img/beans.jpg" alt="" />
+        <img src="img/croisant02 (1).jpg" alt="" />
+      </div>
+    </div>
+    <!-- container hero end -->
+
+    <!-- container menu start -->
+    <div class="container-menu">
+      <div class="title">MENU</div>
+      <hr />
+      <div class="menu-column">
+        <div class="pastry">
+          <h2>PASTRY</h2>
+          <p>BANANA NUT BREAD</p>
+          <p>BROWNIE</p>
+          <p>BUTTER CROISSANT</p>
+          <p>CHEESE DANISH</p>
+          <p>CHOCOLATE CROISSANT</p>
+          <p>GRILLED CHEESE</p>
+          <p>PLAIN BAGEL</p>
+        </div>
+        <div class="coffee">
+          <h2>COFFEE (ICE/HOT)</h2>
+          <p>AMERICANO</p>
+          <p>CAPPUCCINO</p>
+          <p>LATTE</p>
+          <p>MOCHA LATTE</p>
+        </div>
+
+        <div class="special-menu">
+          <h2>SPECIAL MENU</h2>
+          <p>ASSORTED DIM SUM</p>
+          <p>INDONESIAN FRIED RICE</p>
+          <p>NASI UDUK BETAWI</p>
+        </div>
+      </div>
+    </div>
+    <!-- container menu end -->
+
+    <!-- container contact start -->
+
+    <div class="container-contact">
+      <div class="contact-text">CONTACT US</div>
+      <div class="input-box">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Your Name" />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Your Email" />
+        </div>
+        <div>
+          <label for="msg">Message</label>
+          <textarea name="message" id="message" rows="10" cols="100"></textarea>
+        </div>
+      </div>
+      <div class="radio">
+        <label for="sex">Gender</label>
+        <input id="male" type="radio" checked /> Male
+        <input id="Female" type="radio" /> Female
+      </div>
+      <div id="contact_submit">
+        <button type="submit">Submit</button>
+      </div>
+    </div>
+  </body>
+</html>
