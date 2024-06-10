@@ -119,9 +119,10 @@ p {
     font-size: 10px;
   }
   .title-hero {
-    width: 385px;
+    width: 100%;
     text-align: center;
     margin-top: 40px;
+    font-size: 25px;
   }
   .gallery {
     margin: auto;
