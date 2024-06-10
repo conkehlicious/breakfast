@@ -114,6 +114,12 @@ p {
 .contact-about {
   border: 2px red solid;
 }
+/* location-map */
+.location-map {
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+}
 
 /* media responsive */
 @media (max-width: 430px) {
