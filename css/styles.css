@@ -110,6 +110,11 @@ p {
 
 /* container promo end */
 
+/* contact-about start */
+.contact-about {
+  border: 2px red solid;
+}
+
 /* media responsive */
 @media (max-width: 430px) {
   nav {
