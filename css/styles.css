@@ -129,15 +129,20 @@ p {
   }
   .images-hero {
     flex-direction: column;
-    width: 400px;
   }
   .images-hero img {
-    width: 300px;
+    width: 100%;
   }
   .menu-column {
     grid-template-columns: 1fr;
   }
+  .menu-column h2 {
+    padding: 25px 0 5px 0;
+  }
   .boxes-promo {
     flex-direction: column;
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
   }
 }
