@@ -34,6 +34,7 @@ body {
 .navbar-item:hover {
   background-color: burlywood;
 }
+
 /* navbar end */
 
 /* container hero start */
@@ -187,8 +188,7 @@ footer p {
     width: 420px;
   }
   .navbar-item {
-    border: none;
-    font-size: 10px;
+    display: none;
   }
   .title-hero {
     width: 100%;
