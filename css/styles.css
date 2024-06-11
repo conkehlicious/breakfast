@@ -186,6 +186,7 @@ footer p {
 @media (max-width: 430px) {
   nav {
     width: 420px;
+    margin-left: -10px;
   }
   .navbar-item {
     display: none;
