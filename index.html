@@ -10,6 +10,11 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <!-- Add icon library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="css/styles.css" />
     <title>BREAKFAST ALL DAY</title>
   </head>
@@ -115,44 +120,21 @@
     </div>
     <!-- cointainer -promo end -->
 
-    <!-- container contact -->
-    <div class="contact-about">
-      <div class="contact-us">
-        <div class="container-contact">
-          <div class="contact-text">CONTACT US</div>
-          <div class="input-box">
-            <div>
-              <label for="name">Name</label>
-              <input type="text" id="name" placeholder="Your Name" />
-            </div>
-            <div>
-              <label for="email">Email</label>
-              <input type="email" id="email" placeholder="Your Email" />
-            </div>
-            <div>
-              <label for="msg">Message</label>
-              <textarea
-                name="message"
-                id="message"
-                rows="10"
-                cols="100"
-              ></textarea>
-            </div>
-          </div>
-          <div class="radio">
-            <label for="subcribe">Subcribe Our Newsletter</label>
-            <input id="yes" type="radio" checked /> YES
-            <input id="no" type="radio" /> NO
-          </div>
-          <div id="contact_submit">
-            <button type="submit">Submit</button>
-          </div>
-        </div>
+    <div class="container-aboutus">
+      <div class="cafe-img">
+        <img src="img/outdoorcafe.jpg" width="400px" />
+      </div>
+      <div class="aboutus-txt">
+        <h1>ABOUT US</h1>
+        <p>
+          "Enjoy breakfast items from our all-day menu, all under one roof."
+        </p>
+        <button>BOOK A TABLE</button>
       </div>
     </div>
-
-    <!-- location-map start -->
-    <div class="location-map">
+    <!-- footer -->
+    <div class="container-footer">
+      <!-- location-map start -->
       <div class="map">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99360.08999982207!2d-77.10338849978429!3d38.90105100000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b78dbb8a11a7%3A0xfcb14c812a384c1a!2sLa%20Colombe%20Coffee%20Roasters!5e0!3m2!1sen!2sus!4v1718032176190!5m2!1sen!2sus"
@@ -165,6 +147,49 @@
         ></iframe>
       </div>
       <!-- location-map end -->
+      <div class="container-location">
+        <h2>Address :</h2>
+        <p>900 6th ST NW</p>
+        <p>WASHINGTON, DC</p>
+        <p>20001</p>
+        <br />
+        <h2>Phone :</h2>
+
+        <p>917 - 8888 - 123</p>
+        <div class="sosmed">
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-facebook"></a>
+          <i class="fa-brands fa-x-twitter"></i>
+          <a href="#" class="fa-square-x-twitter"></a>
+          <a href="#" class="fa fa-instagram"></a>
+        </div>
+      </div>
+      <!-- container contact -->
+      <div class="container-contact">
+        <div class="contact-text">CONTACT US</div>
+        <div class="input-box">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your Name" />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your Email" />
+          </div>
+          <div>
+            <label for="msg">Message</label>
+            <textarea name="message" id="message" rows="5" cols="50"></textarea>
+          </div>
+        </div>
+        <div class="radio">
+          <label for="subcribe">Subcribe Our Newsletter</label>
+          <input id="yes" type="radio" checked /> YES
+          <input id="no" type="radio" /> NO
+        </div>
+        <div id="contact_submit">
+          <button type="submit">Submit</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
