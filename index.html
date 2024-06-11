@@ -125,92 +125,102 @@
     <!-- cointainer -promo end -->
 
     <div class="container-aboutus">
-      <div class="cafe-img">
-        <img src="img/outdoorcafe.jpg" width="400px" />
-      </div>
-      <div class="aboutus-txt">
-        <h1>ABOUT US</h1>
-        <p>
-          "Enjoy breakfast items from our all-day menu, all under one roof."
-        </p>
+      <div class="cafe-img-column">
+        <div class="cafe-img">
+          <img src="img/outdoorcafe.jpg" width="400px" />
+        </div>
+        <div class="aboutus-txt">
+          <h1>ABOUT US</h1>
+          <p>
+            "Enjoy breakfast items from our all-day menu, all under one roof."
+          </p>
 
-        <button>BOOK A TABLE</button>
+          <button>BOOK A TABLE</button>
+        </div>
       </div>
     </div>
     <!-- footer -->
     <div class="container-footer">
       <!-- location-map start -->
-      <div class="map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99360.08999982207!2d-77.10338849978429!3d38.90105100000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b78dbb8a11a7%3A0xfcb14c812a384c1a!2sLa%20Colombe%20Coffee%20Roasters!5e0!3m2!1sen!2sus!4v1718032176190!5m2!1sen!2sus"
-          width="400"
-          height="500"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </div>
-      <!-- location-map end -->
-      <div class="container-location">
-        <h2>Address :</h2>
-        <p>900 6th ST NW</p>
-        <p>WASHINGTON, DC</p>
-        <p>20001</p>
-        <br />
-        <h2>Phone :</h2>
-
-        <p>917 - 8888 - 123</p>
-        <div class="sosmed">
-          <i class="fa-brands fa-square-facebook"></i>
-          <i class="fa-brands fa-square-instagram"></i>
-          <i class="fa-brands fa-x-twitter"></i>
-          <i class="fa-brands fa-tiktok"></i>
+      <div class="footer-column">
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99360.08999982207!2d-77.10338849978429!3d38.90105100000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b78dbb8a11a7%3A0xfcb14c812a384c1a!2sLa%20Colombe%20Coffee%20Roasters!5e0!3m2!1sen!2sus!4v1718032176190!5m2!1sen!2sus"
+            width="400"
+            height="500"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
-      </div>
-      <!-- container contact -->
-      <div class="container-contact">
-        <div class="contact-text"><h2>CONTACT US</h2></div>
-        <form action="" method="get">
-          <div class="input-box">
-            <div>
-              <label for="name">Name :</label>
-              <input type="text" id="name" placeholder="Your Name" required />
-            </div>
+        <!-- location-map end -->
+        <div class="container-location">
+          <h2>Address :</h2>
+          <p>900 6th ST NW</p>
+          <p>WASHINGTON, DC</p>
+          <p>20001</p>
+          <br />
+          <h2>Phone :</h2>
 
-            <div>
-              <label for="email">Email :</label>
+          <p>917 - 8888 - 123</p>
+          <div class="sosmed">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-tiktok"></i>
+          </div>
+        </div>
+        <!-- container contact -->
+        <div class="container-contact">
+          <div class="contact-text"><h2>CONTACT US</h2></div>
+          <form action="" method="get">
+            <div class="input-box">
+              <div>
+                <label for="name">Name :</label>
+                <input type="text" id="name" placeholder="Your Name" required />
+              </div>
+
+              <div>
+                <label for="email">Email :</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="message">Message :</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  rows="5"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+              </div>
+
+              <input type="submit" value="submit" />
+            </div>
+            <div class="radio">
+              <label for="subcribe">Subcribe Our Newsletter</label>
               <input
-                type="email"
-                id="email"
-                placeholder="Your Email"
-                required
+                id="yes"
+                name="subcribe"
+                type="radio"
+                value="yes"
+                checked
               />
+              YES <input id="no" name="subcribe" type="radio" value="no" /> NO
             </div>
-
-            <div>
-              <label for="message">Message :</label>
-              <textarea
-                name="message"
-                id="message"
-                rows="5"
-                placeholder="Your Message"
-                required
-              ></textarea>
-            </div>
-
-            <input type="submit" value="submit" />
-          </div>
-          <div class="radio">
-            <label for="subcribe">Subcribe Our Newsletter</label>
-            <input id="yes" name="subcribe" type="radio" value="yes" checked />
-            YES <input id="no" name="subcribe" type="radio" value="no" /> NO
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </div>
     <footer>
-      <p>@JUNE 2024 REVOU-BERLIN CLASS BY CONKEHLICIOUS</p>
+      <p>&copy;JUNE 2024 REVOU-BERLIN CLASS BY CONKEHLICIOUS</p>
     </footer>
   </body>
 </html>

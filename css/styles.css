@@ -115,10 +115,14 @@ p {
 .container-aboutus {
   border: 2px black solid;
   border-radius: 15px;
-  max-width: 1224px;
+  width: 1224px;
   padding: 20px;
-  display: flex;
+
   margin: auto;
+  gap: 20px;
+}
+.cafe-img-column {
+  display: flex;
   gap: 20px;
 }
 .aboutus-txt h1 {
@@ -203,10 +207,32 @@ footer {
   .menu-column h2 {
     padding: 25px 0 5px 0;
   }
+  .container-promotion {
+    height: 1300px;
+  }
   .boxes-promo {
     flex-direction: column;
     width: 50%;
     margin: auto;
     margin-top: 40px;
+  }
+  .container-aboutus {
+    width: 350px;
+  }
+  .cafe-img-column {
+    flex-direction: column;
+  }
+  .cafe-img img {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+  .container-footer {
+    width: 350px;
+  }
+  .footer-column {
+  }
+  .map iframe {
+    width: 300px;
   }
 }
