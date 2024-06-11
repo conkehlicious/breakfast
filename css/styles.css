@@ -6,7 +6,7 @@
 body {
   background-color: #dbcdbd;
   font-family: roboto, arial;
-  height: 3600px;
+  height: 3700px;
 }
 
 /* navbar start */
@@ -175,7 +175,9 @@ textarea {
   font-size: 20px;
   margin-bottom: 8px;
 }
-footer {
+footer p {
+  margin-top: 20px;
+  font-size: xx-small;
   text-align: center;
 }
 
