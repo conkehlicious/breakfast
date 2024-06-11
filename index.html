@@ -171,16 +171,21 @@
       <!-- container contact -->
       <div class="container-contact">
         <div class="contact-text"><h2>CONTACT US</h2></div>
-        <div class="input-box">
-          <form action="" method="get">
+        <form action="" method="get">
+          <div class="input-box">
             <div>
               <label for="name">Name :</label>
-              <input type="text" id="name" placeholder="Your Name" />
+              <input type="text" id="name" placeholder="Your Name" required />
             </div>
 
             <div>
               <label for="email">Email :</label>
-              <input type="email" id="email" placeholder="Your Email" />
+              <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                required
+              />
             </div>
 
             <div>
@@ -190,18 +195,22 @@
                 id="message"
                 rows="5"
                 placeholder="Your Message"
+                required
               ></textarea>
             </div>
 
             <input type="submit" value="submit" />
-          </form>
-        </div>
-        <div class="radio">
-          <label for="subcribe">Subcribe Our Newsletter</label>
-          <input id="yes" type="radio" checked /> YES
-          <input id="no" type="radio" /> NO
-        </div>
+          </div>
+          <div class="radio">
+            <label for="subcribe">Subcribe Our Newsletter</label>
+            <input id="yes" name="subcribe" type="radio" value="yes" checked />
+            YES <input id="no" name="subcribe" type="radio" value="no" /> NO
+          </div>
+        </form>
       </div>
     </div>
+    <footer>
+      <p>@JUNE 2024 REVOU-BERLIN CLASS BY CONKEHLICIOUS</p>
+    </footer>
   </body>
 </html>

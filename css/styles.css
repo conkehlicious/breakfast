@@ -169,6 +169,10 @@ textarea {
   font-size: 20px;
   margin-bottom: 8px;
 }
+footer {
+  text-align: center;
+}
+
 /* media responsive */
 @media (max-width: 430px) {
   nav {
