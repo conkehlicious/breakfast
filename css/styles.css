@@ -233,6 +233,8 @@ footer {
     width: 350px;
   }
   .footer-column {
+    display: flex;
+    flex-direction: column;
   }
   .map iframe {
     width: 300px;
