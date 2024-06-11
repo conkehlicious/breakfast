@@ -210,13 +210,15 @@ footer {
     padding: 25px 0 5px 0;
   }
   .container-promotion {
-    height: 1300px;
+    margin-bottom: 30px;
   }
   .boxes-promo {
-    flex-direction: column;
-    width: 50%;
-    margin: auto;
-    margin-top: 40px;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
   }
   .container-aboutus {
     width: 350px;
@@ -227,7 +229,13 @@ footer {
   .cafe-img img {
     width: 100%;
     text-align: center;
-    margin: auto;
+  }
+  .aboutus-txt h1 {
+    margin-top: -10px;
+    font-size: 25px;
+  }
+  .aboutus-txt p {
+    font-size: 20px;
   }
   .container-footer {
     width: 350px;
