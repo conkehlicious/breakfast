@@ -150,13 +150,15 @@ button:hover {
   border: 2px solid;
   border-radius: 15px;
   width: 1224px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+
   margin: auto;
   margin-top: 40px;
   padding: 20px;
 }
-
+.footer-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 .container-location {
   padding: 40px;
 }
