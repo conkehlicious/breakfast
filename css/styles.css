@@ -69,7 +69,7 @@ img {
 
 /* container menu start */
 .container-menu {
-  border: 2px black solid;
+  border: 4px black solid;
   border-radius: 15px;
   max-width: 1224px;
   width: 90%;
@@ -116,7 +116,7 @@ p {
 /* contact-about start */
 
 .container-aboutus {
-  border: 2px black solid;
+  border: 4px black solid;
   border-radius: 15px;
   width: 1224px;
   padding: 20px;
@@ -150,7 +150,7 @@ button:hover {
 }
 
 .container-footer {
-  border: 2px solid;
+  border: 4px solid;
   border-radius: 15px;
   width: 1224px;
 
@@ -178,8 +178,11 @@ textarea {
   font-size: 20px;
   margin-bottom: 8px;
 }
+.form-line-error .form-error-message {
+  background: green !important;
+}
 footer p {
-  margin-top: 20px;
+  padding: 40px;
   font-size: xx-small;
   text-align: center;
 }
